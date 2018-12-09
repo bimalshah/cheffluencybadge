@@ -9,6 +9,6 @@ package 'apache' do
 end
 
 service 'apache2' do
-	service_name 'apache'
+	service_name 'httpd'
 	action [:start, :enable]
 end
